@@ -1,0 +1,950 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UI = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local NAME = Instance.new("TextLabel")
+local verison = Instance.new("TextLabel")
+local CREDIT = Instance.new("TextLabel")
+local admin = Instance.new("TextButton")
+local Shadow = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local headblox = Instance.new("TextButton")
+local Shadow_2 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local crash = Instance.new("TextButton")
+local Shadow_3 = Instance.new("Frame")
+local CrashScript = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local raycodex = Instance.new("TextButton")
+local Shadow_4 = Instance.new("Frame")
+local Admin2 = Instance.new("TextLabel")
+local UICorner_6 = Instance.new("UICorner")
+local aimlock = Instance.new("TextButton")
+local Shadow_5 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local espaimlock = Instance.new("TextButton")
+local Shadow_6 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
+local close = Instance.new("TextButton")
+local open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(49, 49, 49)
+Main.Position = UDim2.new(0.299734741, 0, 0.371298373, 0)
+Main.Size = UDim2.new(0, 452, 0, 306)
+Main.Draggable = true
+Main.Selectable = true
+Main.Active = true
+
+UICorner.Parent = Main
+
+UI.Name = "UI"
+UI.Parent = Main
+UI.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+UI.Position = UDim2.new(0.0154867256, 0, 0.0326797403, 0)
+UI.Size = UDim2.new(0, 439, 0, 52)
+
+UICorner_2.Parent = UI
+
+NAME.Name = "NAME"
+NAME.Parent = UI
+NAME.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NAME.BackgroundTransparency = 1.000
+NAME.Position = UDim2.new(0.298405468, 0, 0.173076928, 0)
+NAME.Size = UDim2.new(0, 200, 0, 50)
+NAME.Font = Enum.Font.SpecialElite
+NAME.Text = "K&N"
+NAME.TextColor3 = Color3.fromRGB(0, 0, 0)
+NAME.TextSize = 46.000
+
+verison.Name = "verison"
+verison.Parent = UI
+verison.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+verison.BackgroundTransparency = 1.000
+verison.Position = UDim2.new(0.712984025, 0, 4.88461542, 0)
+verison.Size = UDim2.new(0, 200, 0, 50)
+verison.Font = Enum.Font.SourceSans
+verison.Text = "1.0"
+verison.TextColor3 = Color3.fromRGB(0, 0, 0)
+verison.TextSize = 14.000
+
+CREDIT.Name = "CREDIT"
+CREDIT.Parent = UI
+CREDIT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CREDIT.BackgroundTransparency = 1.000
+CREDIT.Position = UDim2.new(0.257403195, 0, 2.61538458, 0)
+CREDIT.Size = UDim2.new(0, 200, 0, 50)
+CREDIT.Font = Enum.Font.SourceSans
+CREDIT.Text = ".̸̪͖͚̪͙̏̒̒̈́̾̅̋̒̂̂̇̔"
+CREDIT.TextColor3 = Color3.fromRGB(0, 0, 0)
+CREDIT.TextSize = 14.000
+
+admin.Name = "admin"
+admin.Parent = Main
+admin.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+admin.BorderSizePixel = 0
+admin.Position = UDim2.new(0.0530973375, 0, 0.29411763, 0)
+admin.Size = UDim2.new(0, 180, 0, 45)
+admin.ZIndex = 2
+admin.Font = Enum.Font.GothamSemibold
+admin.Text = ""
+admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+admin.TextScaled = true
+admin.TextSize = 14.000
+admin.TextWrapped = true
+admin.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+Shadow.Name = "Shadow"
+Shadow.Parent = admin
+Shadow.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow.BorderSizePixel = 0
+Shadow.Position = UDim2.new(0, 0, 1.00000072, 0)
+Shadow.Size = UDim2.new(1, 0, -5.29819069e-08, 4)
+
+TextLabel.Parent = admin
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(1, -20, 1, -20)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "Script"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = admin
+
+headblox.Name = "headblox"
+headblox.Parent = Main
+headblox.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+headblox.BorderSizePixel = 0
+headblox.Position = UDim2.new(0.0530973375, 0, 0.529411733, 0)
+headblox.Size = UDim2.new(0, 180, 0, 45)
+headblox.ZIndex = 2
+headblox.Font = Enum.Font.GothamSemibold
+headblox.Text = ""
+headblox.TextColor3 = Color3.fromRGB(255, 255, 255)
+headblox.TextScaled = true
+headblox.TextSize = 14.000
+headblox.TextWrapped = true
+headblox.MouseButton1Click:Connect(function()
+	--by Soul#4086
+
+	--Objects
+	local ScreenGui = Instance.new("ScreenGui")
+	local main = Instance.new("Frame")
+	local title = Instance.new("TextLabel")
+	local Headless = Instance.new("TextButton")
+	local OneLeg = Instance.new("TextButton")
+	local close = Instance.new("TextButton")
+	local openmain = Instance.new("Frame")
+	local open = Instance.new("TextButton")
+
+	--Properties:
+	ScreenGui.Parent = game.CoreGui
+
+	main.Name = "main"
+	main.Parent = ScreenGui
+	main.BackgroundColor3 = Color3.new(0, 0, 0)
+	main.Position = UDim2.new(0.0203577988, 0, 0.641277611, 0)
+	main.Size = UDim2.new(0, 332, 0, 211)
+	main.Visible = false
+	main.Active = true
+	main.Draggable = true
+
+	title.Name = "title"
+	title.Parent = main
+	title.BackgroundColor3 = Color3.new(1, 0, 1)
+	title.Size = UDim2.new(0, 332, 0, 31)
+	title.Font = Enum.Font.GothamBold
+	title.Text = "K&N Cosmetics"
+	title.TextColor3 = Color3.new(0, 0, 0)
+	title.TextSize = 17
+
+	Headless.Name = "Headless"
+	Headless.Parent = main
+	Headless.BackgroundColor3 = Color3.new(0.333333, 1, 0)
+	Headless.Position = UDim2.new(0.036144577, 0, 0.379146934, 0)
+	Headless.Size = UDim2.new(0, 110, 0, 50)
+	Headless.Font = Enum.Font.GothamBold
+	Headless.Text = "Headless"
+	Headless.TextColor3 = Color3.new(0, 0, 0)
+	Headless.TextScaled = true
+	Headless.TextSize = 10
+	Headless.TextWrapped = true
+	Headless.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character.Head.Transparency = 1
+		for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+			if (v:IsA("Decal")) then
+				v:Destroy()
+			end
+		end
+	end)
+
+	OneLeg.Name = "One Leg"
+	OneLeg.Parent = main
+	OneLeg.BackgroundColor3 = Color3.new(0.333333, 1, 0)
+	OneLeg.Position = UDim2.new(0.614457846, 0, 0.379146934, 0)
+	OneLeg.Size = UDim2.new(0, 110, 0, 50)
+	OneLeg.Font = Enum.Font.GothamBold
+	OneLeg.Text = "One Leg"
+	OneLeg.TextColor3 = Color3.new(0, 0, 0)
+	OneLeg.TextScaled = true
+	OneLeg.TextSize = 14
+	OneLeg.TextWrapped = true
+	OneLeg.MouseButton1Down:connect(function()
+		game.Players.LocalPlayer.Character['Right Leg']:remove()
+	end)
+
+	close.Name = "close"
+	close.Parent = main
+	close.BackgroundColor3 = Color3.new(1, 0, 0)
+	close.Position = UDim2.new(0.879518092, 0, 0, 0)
+	close.Size = UDim2.new(0, 40, 0, 31)
+	close.Font = Enum.Font.GothamBlack
+	close.Text = "X"
+	close.TextColor3 = Color3.new(0, 0, 0)
+	close.TextScaled = true
+	close.TextSize = 14
+	close.TextWrapped = true
+	close.MouseButton1Down:connect(function()
+		main.Visible = false
+		openmain.Visible = true
+	end)
+
+	openmain.Name = "openmain"
+	openmain.Parent = ScreenGui
+	openmain.BackgroundColor3 = Color3.new(1, 1, 1)
+	openmain.Position = UDim2.new(.001, 0, .79, 0)
+	openmain.Size = UDim2.new(0, 100, 0, 28)
+	openmain.Active = true
+	openmain.Draggable = true
+
+	open.Name = "open"
+	open.Parent = openmain
+	open.BackgroundColor3 = Color3.new(1, 0, 0)
+	open.Size = UDim2.new(0, 100, 0, 28)
+	open.Font = Enum.Font.GothamBold
+	open.Text = "OPEN"
+	open.TextColor3 = Color3.new(0, 0, 0)
+	open.TextSize = 18
+	open.TextWrapped = true
+	open.MouseButton1Down:connect(function()
+		openmain.Visible = false
+		main.Visible = true
+	end)
+end)
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = headblox
+Shadow_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Position = UDim2.new(0, 0, 1.00000072, 0)
+Shadow_2.Size = UDim2.new(1, 0, -5.29819069e-08, 4)
+
+TextLabel_2.Parent = headblox
+TextLabel_2.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_2.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_2.ZIndex = 2
+TextLabel_2.Font = Enum.Font.GothamSemibold
+TextLabel_2.Text = "Korblox + Headless"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 3)
+UICorner_4.Parent = headblox
+
+crash.Name = "crash"
+crash.Parent = Main
+crash.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+crash.BorderSizePixel = 0
+crash.Position = UDim2.new(0.0530973375, 0, 0.751633942, 0)
+crash.Size = UDim2.new(0, 180, 0, 45)
+crash.ZIndex = 2
+crash.Font = Enum.Font.GothamSemibold
+crash.Text = ""
+crash.TextColor3 = Color3.fromRGB(255, 255, 255)
+crash.TextScaled = true
+crash.TextSize = 14.000
+crash.TextWrapped = true
+crash.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+Shadow_3.Name = "Shadow"
+Shadow_3.Parent = crash
+Shadow_3.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_3.BorderSizePixel = 0
+Shadow_3.Position = UDim2.new(0, 0, 1.00000072, 0)
+Shadow_3.Size = UDim2.new(1, 0, -5.29819069e-08, 4)
+
+CrashScript.Name = "Crash Script"
+CrashScript.Parent = crash
+CrashScript.AnchorPoint = Vector2.new(0.5, 0.5)
+CrashScript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CrashScript.BackgroundTransparency = 1.000
+CrashScript.BorderColor3 = Color3.fromRGB(27, 42, 53)
+CrashScript.BorderSizePixel = 0
+CrashScript.Position = UDim2.new(0.5, 0, 0.5, 0)
+CrashScript.Size = UDim2.new(1, -20, 1, -20)
+CrashScript.ZIndex = 2
+CrashScript.Font = Enum.Font.GothamSemibold
+CrashScript.Text = "CMD-X"
+CrashScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+CrashScript.TextScaled = true
+CrashScript.TextSize = 14.000
+CrashScript.TextWrapped = true
+
+UICorner_5.CornerRadius = UDim.new(0, 3)
+UICorner_5.Parent = crash
+
+raycodex.Name = "raycodex"
+raycodex.Parent = Main
+raycodex.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+raycodex.BorderSizePixel = 0
+raycodex.Position = UDim2.new(0.548672557, 0, 0.2941176, 0)
+raycodex.Size = UDim2.new(0, 180, 0, 45)
+raycodex.ZIndex = 2
+raycodex.Font = Enum.Font.GothamSemibold
+raycodex.Text = ""
+raycodex.TextColor3 = Color3.fromRGB(255, 255, 255)
+raycodex.TextScaled = true
+raycodex.TextSize = 14.000
+raycodex.TextWrapped = true
+raycodex.MouseButton1Click:Connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+Shadow_4.Name = "Shadow"
+Shadow_4.Parent = raycodex
+Shadow_4.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_4.BorderSizePixel = 0
+Shadow_4.Position = UDim2.new(0, 0, 1.00000072, 0)
+Shadow_4.Size = UDim2.new(1, 0, -5.29819069e-08, 4)
+
+Admin2.Name = "Admin 2"
+Admin2.Parent = raycodex
+Admin2.AnchorPoint = Vector2.new(0.5, 0.5)
+Admin2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Admin2.BackgroundTransparency = 1.000
+Admin2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Admin2.BorderSizePixel = 0
+Admin2.Position = UDim2.new(0.5, 0, 0.5, 0)
+Admin2.Size = UDim2.new(1, -20, 1, -20)
+Admin2.ZIndex = 2
+Admin2.Font = Enum.Font.GothamSemibold
+Admin2.Text = "Raycodex"
+Admin2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Admin2.TextScaled = true
+Admin2.TextSize = 14.000
+Admin2.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 3)
+UICorner_6.Parent = raycodex
+
+aimlock.Name = "aimlock"
+aimlock.Parent = Main
+aimlock.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+aimlock.BorderSizePixel = 0
+aimlock.Position = UDim2.new(0.548672557, 0, 0.529411733, 0)
+aimlock.Size = UDim2.new(0, 180, 0, 45)
+aimlock.ZIndex = 2
+aimlock.Font = Enum.Font.GothamSemibold
+aimlock.Text = " "
+aimlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+aimlock.TextScaled = true
+aimlock.TextSize = 14.000
+aimlock.TextWrapped = true
+aimlock.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Kphta/christmas-2/main/2.0"),true))()
+end)
+
+Shadow_5.Name = "Shadow"
+Shadow_5.Parent = aimlock
+Shadow_5.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_5.BorderSizePixel = 0
+Shadow_5.Position = UDim2.new(0, 0, 1.00000072, 0)
+Shadow_5.Size = UDim2.new(1, 0, -5.29819069e-08, 4)
+
+TextLabel_3.Parent = aimlock
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_3.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.GothamSemibold
+TextLabel_3.Text = "Aim Lock"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 3)
+UICorner_7.Parent = aimlock
+
+espaimlock.Name = "espaimlock"
+espaimlock.Parent = Main
+espaimlock.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+espaimlock.BorderSizePixel = 0
+espaimlock.Position = UDim2.new(0.548672557, 0, 0.751633942, 0)
+espaimlock.Size = UDim2.new(0, 180, 0, 45)
+espaimlock.ZIndex = 2
+espaimlock.Font = Enum.Font.GothamSemibold
+espaimlock.Text = ""
+espaimlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+espaimlock.TextScaled = true
+espaimlock.TextSize = 14.000
+espaimlock.TextWrapped = true
+espaimlock.MouseButton1Click:Connect(function()
+	local L_1_ = "t"
+	local L_2_ = game.Players.LocalPlayer:GetMouse()
+	L_2_.KeyDown:Connect(
+		function(L_22_arg0)
+			if L_22_arg0 == L_1_ then
+				if DaHoodSettings.SilentAim == true then
+					DaHoodSettings.SilentAim = false
+				else
+					DaHoodSettings.SilentAim = true
+				end
+			end
+		end
+	)
+	game:GetService("RunService").RenderStepped:Connect(
+	function()
+		for L_23_forvar0, L_24_forvar1 in pairs(game.CoreGui:GetChildren()) do
+			if L_24_forvar1.Name == "PostmansAutoRob" then
+				L_24_forvar1:Destroy()
+			end
+		end
+		for L_25_forvar0, L_26_forvar1 in pairs(game.CoreGui:GetChildren()) do
+			if L_26_forvar1.Name == "WarningGUI" then
+				L_26_forvar1:Destroy()
+			end
+		end
+	end
+	)
+	game.StarterGui:SetCore(
+		"SendNotification",
+		{
+			Title = "K&N ",
+			Text = "K&N, You're whitelisted.",
+		}
+	)
+	local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+	local L_4_ = L_3_.CreateLib("K&N", "DarkTheme")
+	local L_5_ = L_4_:NewTab("Aimlock")
+	local L_6_ = L_5_:NewSection("K&N")
+	L_6_:NewButton(
+		"Aimlock",
+		"Beam niggas down",
+		function()
+			getgenv().AimPart = "HumanoidRootPart"
+			getgenv().AimlockKey = "q"
+			getgenv().AimRadius = 30
+			getgenv().ThirdPerson = true
+			getgenv().FirstPerson = true
+			getgenv().TeamCheck = false
+			getgenv().PredictMovement = true
+			getgenv().PredictionVelocity = 9
+			local L_27_, L_28_, L_29_, L_30_ =
+				game:GetService "Players",
+			game:GetService "UserInputService",
+			game:GetService "RunService",
+			game:GetService "StarterGui"
+			local L_31_, L_32_, L_33_, L_34_, L_35_, L_36_, L_37_ =
+				L_27_.LocalPlayer,
+			L_27_.LocalPlayer:GetMouse(),
+			workspace.CurrentCamera,
+			CFrame.new,
+			Ray.new,
+			Vector3.new,
+			Vector2.new
+			local L_38_, L_39_, L_40_ = true, false, false
+			local L_41_
+			getgenv().CiazwareUniversalAimbotLoaded = true
+			getgenv().WorldToViewportPoint = function(L_42_arg0)
+				return L_33_:WorldToViewportPoint(L_42_arg0)
+			end
+			getgenv().WorldToScreenPoint = function(L_43_arg0)
+				return L_33_.WorldToScreenPoint(L_33_, L_43_arg0)
+			end
+			getgenv().GetObscuringObjects = function(L_44_arg0)
+				if L_44_arg0 and L_44_arg0:FindFirstChild(getgenv().AimPart) and L_31_ and L_31_.Character:FindFirstChild("Head") then
+					local L_45_ = workspace:FindPartOnRay(L_35_(L_44_arg0[getgenv().AimPart].Position, L_31_.Character.Head.Position))
+					if L_45_ then
+						return L_45_:IsDescendantOf(L_44_arg0)
+					end
+				end
+			end
+			getgenv().GetNearestTarget = function()
+				local L_46_ = {}
+				local L_47_ = {}
+				local L_48_ = {}
+				for L_50_forvar0, L_51_forvar1 in pairs(L_27_:GetPlayers()) do
+					if L_51_forvar1 ~= L_31_ then
+						table.insert(L_46_, L_51_forvar1)
+					end
+				end
+				for L_52_forvar0, L_53_forvar1 in pairs(L_46_) do
+					if L_53_forvar1.Character ~= nil then
+						local L_54_ = L_53_forvar1.Character:FindFirstChild("Head")
+						if getgenv().TeamCheck == true and L_53_forvar1.Team ~= L_31_.Team then
+							local L_55_ =
+								(L_53_forvar1.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p).magnitude
+							local L_56_ =
+								Ray.new(
+									game.Workspace.CurrentCamera.CFrame.p,
+									(L_32_.Hit.p - game.Workspace.CurrentCamera.CFrame.p).unit * L_55_
+								)
+							local L_57_, L_58_ = game.Workspace:FindPartOnRay(L_56_, game.Workspace)
+							local L_59_ = math.floor((L_58_ - L_54_.Position).magnitude)
+							L_47_[L_53_forvar1.Name .. L_52_forvar0] = {}
+							L_47_[L_53_forvar1.Name .. L_52_forvar0].dist = L_55_
+							L_47_[L_53_forvar1.Name .. L_52_forvar0].plr = L_53_forvar1
+							L_47_[L_53_forvar1.Name .. L_52_forvar0].diff = L_59_
+							table.insert(L_48_, L_59_)
+						elseif getgenv().TeamCheck == false and L_53_forvar1.Team == L_31_.Team then
+							local L_60_ =
+								(L_53_forvar1.Character:FindFirstChild("Head").Position - game.Workspace.CurrentCamera.CFrame.p).magnitude
+							local L_61_ =
+								Ray.new(
+									game.Workspace.CurrentCamera.CFrame.p,
+									(L_32_.Hit.p - game.Workspace.CurrentCamera.CFrame.p).unit * L_60_
+								)
+							local L_62_, L_63_ = game.Workspace:FindPartOnRay(L_61_, game.Workspace)
+							local L_64_ = math.floor((L_63_ - L_54_.Position).magnitude)
+							L_47_[L_53_forvar1.Name .. L_52_forvar0] = {}
+							L_47_[L_53_forvar1.Name .. L_52_forvar0].dist = L_60_
+							L_47_[L_53_forvar1.Name .. L_52_forvar0].plr = L_53_forvar1
+							L_47_[L_53_forvar1.Name .. L_52_forvar0].diff = L_64_
+							table.insert(L_48_, L_64_)
+						end
+					end
+				end
+				if unpack(L_48_) == nil then
+					return nil
+				end
+				local L_49_ = math.floor(math.min(unpack(L_48_)))
+				if L_49_ > getgenv().AimRadius then
+					return nil
+				end
+				for L_65_forvar0, L_66_forvar1 in pairs(L_47_) do
+					if L_66_forvar1.diff == L_49_ then
+						return L_66_forvar1.plr
+					end
+				end
+				return nil
+			end
+			L_32_.KeyDown:Connect(
+				function(L_67_arg0)
+					if L_67_arg0 == AimlockKey and L_41_ == nil then
+						pcall(
+							function()
+								if L_39_ ~= true then
+									L_39_ = true
+								end
+								local L_68_
+								L_68_ = GetNearestTarget()
+								if L_68_ ~= nil then
+									L_41_ = L_68_
+								end
+							end
+						)
+					elseif L_67_arg0 == AimlockKey and L_41_ ~= nil then
+						if L_41_ ~= nil then
+							L_41_ = nil
+						end
+						if L_39_ ~= false then
+							L_39_ = false
+						end
+					end
+				end
+			)
+			L_29_.RenderStepped:Connect(
+				function()
+					if getgenv().ThirdPerson == true and getgenv().FirstPerson == true then
+						if
+							(L_33_.Focus.p - L_33_.CoordinateFrame.p).Magnitude > 1 or
+							(L_33_.Focus.p - L_33_.CoordinateFrame.p).Magnitude <= 1
+						then
+							L_40_ = true
+						else
+							L_40_ = false
+						end
+					elseif getgenv().ThirdPerson == true and getgenv().FirstPerson == false then
+						if (L_33_.Focus.p - L_33_.CoordinateFrame.p).Magnitude > 1 then
+							L_40_ = true
+						else
+							L_40_ = false
+						end
+					elseif getgenv().ThirdPerson == false and getgenv().FirstPerson == true then
+						if (L_33_.Focus.p - L_33_.CoordinateFrame.p).Magnitude <= 1 then
+							L_40_ = true
+						else
+							L_40_ = false
+						end
+					end
+					if L_38_ == true and L_39_ == true then
+						if L_41_ and L_41_.Character and L_41_.Character:FindFirstChild(getgenv().AimPart) then
+							if getgenv().FirstPerson == true then
+								if L_40_ == true then
+									if getgenv().PredictMovement == true then
+										L_33_.CFrame =
+											L_34_(
+												L_33_.CFrame.p,
+												L_41_.Character[getgenv().AimPart].Position +
+												L_41_.Character[getgenv().AimPart].Velocity / PredictionVelocity
+											)
+									elseif getgenv().PredictMovement == false then
+										L_33_.CFrame = L_34_(L_33_.CFrame.p, L_41_.Character[getgenv().AimPart].Position)
+									end
+								end
+							elseif getgenv().ThirdPerson == true then
+								if L_40_ == true then
+									if getgenv().PredictMovement == true then
+										L_33_.CFrame =
+											L_34_(
+												L_33_.CFrame.p,
+												L_41_.Character[getgenv().AimPart].Position +
+												L_41_.Character[getgenv().AimPart].Velocity / PredictionVelocity
+											)
+									elseif getgenv().PredictMovement == false then
+										L_33_.CFrame = L_34_(L_33_.CFrame.p, L_41_.Character[getgenv().AimPart].Position)
+									end
+								end
+							end
+						end
+					end
+				end
+			)
+		end
+	)
+	L_6_:NewTextBox(
+		"Aimlock Key",
+		"Aimlock Key should be lowercase.",
+		function(L_69_arg0)
+			getgenv().AimlockKey = L_69_arg0
+		end
+	)
+	L_6_:NewTextBox(
+		"Aimlock Prediction",
+		"Customize your aimlock prediction",
+		function(L_70_arg0)
+			PredictionVelocity = L_70_arg0
+		end
+	)
+	L_6_:NewDropdown(
+		"AimPart",
+		"Yes",
+		{
+			"Head",
+			"UpperTorso",
+			"HumanoidRootPart",
+			"LowerTorso"
+		},
+		function(L_71_arg0)
+			getgenv().AimPart = L_71_arg0
+		end
+	)
+	local L_7_ = L_4_:NewTab("Silent Aim")
+	local L_8_ = L_7_:NewSection("K&N")
+	L_8_:NewButton(
+		"Silent Aim",
+		"Silent Aim Toggle Key is T.",
+		function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/tayodevelup/imsoniac/main/silentaim", true))()
+		end
+	)
+	L_8_:NewTextBox(
+		"Silent Aim Prediction",
+		"0.157 for low ping 0.178 high ping",
+		function(L_72_arg0)
+			DaHoodSettings.Prediction = L_72_arg0
+		end
+	)
+	L_8_:NewDropdown(
+		"Silent Aim Part",
+		"yes bro flash is cool",
+		{
+			"Head",
+			"UpperTorso",
+			"HumanoidRootPart",
+			"LowerTorso"
+		},
+		function(L_73_arg0)
+			Aiming.TargetPart = L_73_arg0
+		end
+	)
+	L_8_:NewTextBox(
+		"Silent Aim Fov",
+		"yes bro i am cool (flash)",
+		function(L_74_arg0)
+			Aiming.FOV = L_74_arg0
+		end
+	)
+	L_8_:NewToggle(
+		"Silent Aim Show Fov",
+		"yea",
+		function(L_75_arg0)
+			Aiming.ShowFOV = L_75_arg0
+		end
+	)
+	local L_11_ = L_4_:NewTab("Antilock")
+	local L_12_ = L_11_:NewSection("15x")
+	L_12_:NewButton(
+		"Anti-Lock",
+		"Key is Z.",
+		function()
+			repeat
+				wait()
+			until game:IsLoaded()
+			getgenv().Fix = true
+			getgenv().TeclasWS = {
+				["tecla1"] = "nil",
+				["tecla2"] = "nil",
+				["tecla3"] = "H"
+			}
+			local L_121_ = game:GetService("Players")
+			local L_122_ = game:GetService("StarterGui") or "son una mierda"
+			local L_123_ = L_121_.LocalPlayer
+			local L_124_ = L_123_:GetMouse()
+			local L_125_ = getrenv()._G
+			local L_126_ = getrawmetatable(game)
+			local L_127_ = L_126_.__newindex
+			local L_128_ = L_126_.__index
+			local L_129_ = 22
+			local L_130_ = true
+			function anunciar_atentado_terrorista(L_138_arg0)
+				L_122_:SetCore("SendNotification", {
+					Title = "anti lock fix",
+					Text = L_138_arg0
+				})
+			end
+			getgenv().TECHWAREWALKSPEED_LOADED = true
+			wait(1.5)
+			anunciar_atentado_terrorista("Press  " .. TeclasWS.tecla3 .. " to turn on/off anti lock fix")
+			L_124_.KeyDown:Connect(
+				function(L_139_arg0)
+					if L_139_arg0:lower() == TeclasWS.tecla1:lower() then
+						L_129_ = L_129_ + 1
+						anunciar_atentado_terrorista("ææ¾å¨éåº¦å·²æé« (speed = " .. tostring(L_129_) .. ")")
+					elseif L_139_arg0:lower() == TeclasWS.tecla2:lower() then
+						L_129_ = L_129_ - 1
+						anunciar_atentado_terrorista("ç©å®¶çéåº¦å·²éä½ (speed = " .. tostring(L_129_) .. ")")
+					elseif L_139_arg0:lower() == TeclasWS.tecla3:lower() then
+						if L_130_ then
+							L_130_ = false
+							anunciar_atentado_terrorista("anti lock fix off")
+						else
+							L_130_ = true
+							anunciar_atentado_terrorista("anti lock fix on")
+						end
+					end
+				end
+			)
+			setreadonly(L_126_, false)
+			L_126_.__index =
+				newcclosure(
+					function(L_140_arg0, L_141_arg1)
+						local L_142_ = checkcaller()
+						if L_141_arg1 == "WalkSpeed" and not L_142_ then
+						return L_125_.CurrentWS
+					end
+						return L_128_(L_140_arg0, L_141_arg1)
+					end
+				)
+			L_126_.__newindex =
+				newcclosure(
+					function(L_143_arg0, L_144_arg1, L_145_arg2)
+						local L_146_ = checkcaller()
+						if L_130_ then
+						if L_144_arg1 == "WalkSpeed" and L_145_arg2 ~= 0 and not L_146_ then
+							return L_127_(L_143_arg0, L_144_arg1, L_129_)
+						end
+					end
+						return L_127_(L_143_arg0, L_144_arg1, L_145_arg2)
+					end
+				)
+			setreadonly(L_126_, true)
+			repeat
+				wait()
+			until game:IsLoaded()
+			local L_131_ = game:service("Players")
+			local L_132_ = L_131_.LocalPlayer
+			repeat
+				wait()
+			until L_132_.Character
+			local L_133_ = game:service("UserInputService")
+			local L_134_ = game:service("RunService")
+			local L_135_ = -0.27
+			local L_136_ = false
+			local L_137_
+			L_133_.InputBegan:connect(
+				function(L_147_arg0)
+					if L_147_arg0.KeyCode == Enum.KeyCode.LeftBracket then
+						L_135_ = L_135_ + 0.01
+						print(L_135_)
+						wait(0.2)
+						while L_133_:IsKeyDown(Enum.KeyCode.LeftBracket) do
+							wait()
+							L_135_ = L_135_ + 0.01
+							print(L_135_)
+						end
+					end
+					if L_147_arg0.KeyCode == Enum.KeyCode.RightBracket then
+						L_135_ = L_135_ - 0.01
+						print(L_135_)
+						wait(0.2)
+						while L_133_:IsKeyDown(Enum.KeyCode.RightBracket) do
+							wait()
+							L_135_ = L_135_ - 0.01
+							print(L_135_)
+						end
+					end
+					if L_147_arg0.KeyCode == Enum.KeyCode.Z then
+						L_136_ = not L_136_
+						if L_136_ == true then
+							repeat
+								game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =
+									game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame +
+									game.Players.LocalPlayer.Character.Humanoid.MoveDirection * L_135_
+								game:GetService("RunService").Stepped:wait()
+							until L_136_ == false
+						end
+					end
+				end
+			)
+		end
+	)
+	local L_13_ = L_4_:NewTab("Settings")
+	local L_14_ = L_13_:NewSection("15X")
+	L_14_:NewKeybind(
+		"Keybind Gui Toggle",
+		"h",
+		Enum.KeyCode.V,
+		function()
+			L_3_:ToggleUI()
+		end
+	)
+	local L_17_ = L_4_:NewTab("ESP")
+	local L_18_ = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
+	local L_19_ = L_17_:NewSection("K&N")
+	L_19_:NewToggle(
+		"ESP",
+		"ESP",
+		function(L_201_arg0)
+			L_18_:Toggle(L_201_arg0)
+		end
+	)
+	L_19_:NewToggle(
+		"Tracers",
+		"ESP Tracers",
+		function(L_202_arg0)
+			L_18_.Tracers = L_202_arg0
+		end
+	)
+	L_19_:NewToggle(
+		"Names",
+		"ESP Names",
+		function(L_203_arg0)
+			L_18_.Names = L_203_arg0
+		end
+	)
+	L_19_:NewToggle(
+		"Boxes",
+		"ESP Boxes",
+		function(L_204_arg0)
+			L_18_.Boxes = L_204_arg0
+		end
+	)
+end)
+
+Shadow_6.Name = "Shadow"
+Shadow_6.Parent = espaimlock
+Shadow_6.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_6.BorderSizePixel = 0
+Shadow_6.Position = UDim2.new(0, 0, 1.00000072, 0)
+Shadow_6.Size = UDim2.new(1, 0, -5.29819069e-08, 4)
+
+TextLabel_4.Parent = espaimlock
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_4.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_4.ZIndex = 2
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "K&N AIMLOCK"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0, 3)
+UICorner_8.Parent = espaimlock
+
+close.Name = "close"
+close.Parent = Main
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 1.000
+close.Position = UDim2.new(0.923451304, 0, -0.00125065446, 0)
+close.Size = UDim2.new(0, 34, 0, 26)
+close.Font = Enum.Font.SourceSans
+close.Text = "🔴"
+close.TextColor3 = Color3.fromRGB(0, 0, 0)
+close.TextSize = 14.000
+close.MouseButton1Click:Connect(function()
+	Main.Visible = false
+	open.Visible = true
+end)
+
+open.Name = "open"
+open.Parent = ScreenGui
+open.BackgroundColor3 = Color3.fromRGB(152, 0, 0)
+open.Position = UDim2.new(0, 0, 0.473804057, 0)
+open.Size = UDim2.new(0, 47, 0, 21)
+open.Font = Enum.Font.SourceSans
+open.Text = "🎥 rec"
+open.TextColor3 = Color3.fromRGB(0, 0, 0)
+open.TextSize = 14.000
+open.Visible = false
+open.MouseButton1Click:Connect(function()
+	Main.Visible = true
+	open.Visible = false
+end)
