@@ -109,7 +109,7 @@ admin.TextScaled = true
 admin.TextSize = 14.000
 admin.TextWrapped = true
 admin.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/Kphta/christmas-2/main/2.0"),true))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
 end)
 
 Shadow.Name = "Shadow"
